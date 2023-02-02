@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 /**
  * xxl-job config
- *
+ * 包含所需的数据库操作
  * @author xuxueli 2017-04-28
  */
 

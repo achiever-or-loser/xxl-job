@@ -43,6 +43,11 @@ public class ExecutorBizImpl implements ExecutorBiz {
         return ReturnT.SUCCESS;
     }
 
+    /**
+     * 根据GlueType和ExecutorBlockStrategyEnum确定jobThread，然后去放到jobThread的triggerQueue队列中等待执行
+     * @param triggerParam
+     * @return
+     */
     @Override
     public ReturnT<String> run(TriggerParam triggerParam) {
         // load old：jobHandler + jobThread

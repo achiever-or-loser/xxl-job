@@ -15,6 +15,7 @@ import java.text.MessageFormat;
 
 /**
  * @author xuxueli 2020-10-30 20:43:10
+ * 主要用来处理可能设置的子任务
  */
 public class XxlJobCompleter {
     private static Logger logger = LoggerFactory.getLogger(XxlJobCompleter.class);

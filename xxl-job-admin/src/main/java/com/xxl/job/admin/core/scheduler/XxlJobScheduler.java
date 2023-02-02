@@ -13,6 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 /**
+ * 启动相关的后台执行线程
  * @author xuxueli 2018-10-28 00:18:17
  */
 

@@ -24,6 +24,7 @@ import java.util.concurrent.*;
 
 /**
  * Copy from : https://github.com/xuxueli/xxl-rpc
+ * netty 服务实例 job调用的地址
  *
  * @author xuxueli 2020-04-11 21:25
  */

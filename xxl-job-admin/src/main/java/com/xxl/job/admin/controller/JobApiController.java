@@ -20,6 +20,7 @@ import java.util.List;
 
 /**
  * Created by xuxueli on 17/5/10.
+ * 接收来自执行器的回调注册等请求
  */
 @Controller
 @RequestMapping("/api")

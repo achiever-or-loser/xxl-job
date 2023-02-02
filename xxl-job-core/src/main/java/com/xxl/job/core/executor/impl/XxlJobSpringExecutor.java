@@ -20,7 +20,7 @@ import java.util.Map;
 
 /**
  * xxl-job executor (for spring)
- *
+ * 为具体执行器使用的
  * @author xuxueli 2018-11-01 09:24:52
  */
 public class XxlJobSpringExecutor extends XxlJobExecutor implements ApplicationContextAware, SmartInitializingSingleton, DisposableBean {

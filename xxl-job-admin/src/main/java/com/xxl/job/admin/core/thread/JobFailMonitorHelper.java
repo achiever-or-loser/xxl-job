@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * job monitor instance
- *
+ * 监控长时间没有执行或者空置的任务，触发邮件
  * @author xuxueli 2015-9-1 18:05:56
  */
 public class JobFailMonitorHelper {

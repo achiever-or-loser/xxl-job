@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * job trigger thread pool helper
- *
+ * 执行的触发任务，并记录执行的时间
  * @author xuxueli 2018-07-03 21:08:07
  */
 public class JobTriggerPoolHelper {

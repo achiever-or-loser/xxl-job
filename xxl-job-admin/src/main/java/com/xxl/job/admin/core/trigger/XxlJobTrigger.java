@@ -55,6 +55,7 @@ public class XxlJobTrigger {
             return;
         }
         if (executorParam != null) {
+            //???为什么重新赋值executorParam
             jobInfo.setExecutorParam(executorParam);
         }
         int finalFailRetryCount = failRetryCount>=0?failRetryCount:jobInfo.getExecutorFailRetryCount();

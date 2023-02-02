@@ -15,6 +15,8 @@ import java.util.concurrent.*;
 
 /**
  * job registry instance
+ * 删除一倍Beat没有更新的xxl_job_registry中的执行器节点；
+ * 调度中心以一倍Beat进行动态任务发现xxl_job_registry中节点地址去刷新xxl_job_group的AddressList
  * @author xuxueli 2016-10-02 19:10:24
  */
 public class JobRegistryHelper {

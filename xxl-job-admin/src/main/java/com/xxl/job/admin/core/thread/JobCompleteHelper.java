@@ -16,7 +16,7 @@ import java.util.concurrent.*;
 
 /**
  * job lose-monitor instance
- *
+ * 主要负责回调等操作处理
  * @author xuxueli 2015-9-1 18:05:56
  */
 public class JobCompleteHelper {
